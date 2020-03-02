@@ -1,0 +1,159 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/* --------------------------Zero-------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i|Poppins:500|Saira+Semi+Condensed:400,600&display=swap');
+
+/* ------fonts--------- */
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Saira Semi Condensed', sans-serif; */
+
+h1{
+  font-family: 'Poppins', sans-serif;
+  color: #273d46;
+  letter-spacing: 37.8px;
+  font-size: 189px;
+  text-transform: uppercase;
+  font-weight: 500;
+  /* line-height: 40px; */
+  opacity: 0.1;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 68px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #273d46;
+}
+
+h4{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #273d46;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Playfair Display', serif;
+  color: #273d46;
+  font-size: 24px;
+  font-weight: 400;
+  color: #273d46;
+  opacity: 0.8;
+}
+
+/* ---------wrapper----------- */
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+ }
+
+/* --------header-------- */
+
+.header { }
+.header_top-bar {
+width: 298px;
+height: 178px;
+background-color: #80b7b3;
+ }
+.header_nav { }
+.header_story {
+  width: 741px;
+  height: 136px;
+ }
+
+.header_menu { }
+.span_menu{ }
+
+/* ----------story-one------------ */
+
+.story-one { }
+.story-one_content { }
+.btn {  
+width: 199px;
+height: 44px;
+box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+border-radius: 22px;
+background-color: #80b7b3;
+ }
+ .btn h4{
+   color: #ffffff;
+ }
+.story-one_item { }
+.story-one_picture { }
+
+/* ---------------story-two--------------- */
+
+.story-two { }
+.content-two { }
+
+/* -----------------story-three--------------- */
+.story-three { }
+.store-three_video { }
+
+/* --------------------story-four----------------- */
+
+.story-four { }
+.story-for_item { }
+.story-for_content { }
+.story-for_label { }
+
+/* --------------------footer------------------ */
+
+.footer {
+  background-image: url(img/forest.webp);
+ }
+.form { }
+.footer_label { }
+
+/* ----------------b-l-------------- */
+
+.background-line { }
